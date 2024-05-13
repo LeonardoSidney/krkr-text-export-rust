@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{rs,toml}]
+charset = utf-8
+
+# Indentation style
+# Possible values: space, tab
+indent_style = space
+
+# Indentation size in single-spaced characters
+indent_size = 4
+
+# End of line format
+# Possible values: lf, cr, crlf
+end_of_line = lf
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+# Insert a final newline
+insert_final_newline = true
